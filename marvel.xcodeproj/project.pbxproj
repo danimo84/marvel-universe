@@ -7,23 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1908CD88272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CD87272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift */; };
+		1908CD8A272EF6B600C45760 /* MUCharacterDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CD89272EF6B600C45760 /* MUCharacterDetailUseCase.swift */; };
+		1908CD8C272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CD8B272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift */; };
+		1908CD8E272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CD8D272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift */; };
+		1908CD90272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CD8F272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift */; };
+		1908CDA1272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA0272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift */; };
+		1908CDAA272F08D000C45760 /* MUCharacterDetailSerieMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA4272F08D000C45760 /* MUCharacterDetailSerieMapper.swift */; };
+		1908CDAB272F08D000C45760 /* MUCharacaterDetailResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA5272F08D000C45760 /* MUCharacaterDetailResultMapper.swift */; };
+		1908CDAC272F08D000C45760 /* MUCharacterDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA6272F08D000C45760 /* MUCharacterDetailMapper.swift */; };
+		1908CDAD272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA7272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift */; };
+		1908CDAE272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA8272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift */; };
+		1908CDAF272F08D000C45760 /* MUCharacterDetailComicMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDA9272F08D000C45760 /* MUCharacterDetailComicMapper.swift */; };
+		1908CDB1272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDB0272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift */; };
+		1908CDB3272F160C00C45760 /* MUCharacterDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDB2272F160C00C45760 /* MUCharacterDetailProvider.swift */; };
+		1908CDB5272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDB4272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift */; };
+		1908CDB8272F183300C45760 /* MULoadCharacterDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDB7272F183300C45760 /* MULoadCharacterDetailUseCase.swift */; };
+		1908CDBA272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDB9272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift */; };
+		1908CDBF272F1AC600C45760 /* MUCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDBD272F1AC600C45760 /* MUCharacterDetailViewController.swift */; };
+		1908CDC0272F1AC600C45760 /* MUCharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1908CDBE272F1AC600C45760 /* MUCharacterDetailViewController.xib */; };
+		1908CDC2272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC1272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift */; };
+		1908CDC4272F1AF500C45760 /* MUCharacterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC3272F1AF500C45760 /* MUCharacterDetailPresenter.swift */; };
+		1908CDC7272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC6272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift */; };
+		1908CDC9272F2A0C00C45760 /* MUCharacterDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC8272F2A0C00C45760 /* MUCharacterDetailRouter.swift */; };
+		191184B92731C23700BA0F71 /* MUButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191184B82731C23700BA0F71 /* MUButtonExtension.swift */; };
+		191184BB2731C76800BA0F71 /* MUTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */; };
+		193E69EF272EA3D700AF5199 /* MUCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */; };
+		193E69F0272EA3D700AF5199 /* MUCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */; };
+		1967CF69272C293400D400AE /* MUApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF68272C293400D400AE /* MUApiClient.swift */; };
+		1967CF6B272C294B00D400AE /* MUBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6A272C294B00D400AE /* MUBaseClient.swift */; };
+		1967CF6F272C39B700D400AE /* MUCharactersViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */; };
+		1967CF71272C3AF300D400AE /* MUCharactersPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF70272C3AF300D400AE /* MUCharactersPresenterProtocol.swift */; };
+		1967CF73272C3AFE00D400AE /* MUCharactersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF72272C3AFE00D400AE /* MUCharactersPresenter.swift */; };
+		1967CF76272C3B9300D400AE /* MUCharactersRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF75272C3B9300D400AE /* MUCharactersRouterProtocol.swift */; };
+		1967CF78272C3B9B00D400AE /* MUCharactersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF77272C3B9B00D400AE /* MUCharactersRouter.swift */; };
+		1967CF7B272C59E500D400AE /* MUCharacterDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF7A272C59E500D400AE /* MUCharacterDataWrapper.swift */; };
+		1967CF7D272C5A0100D400AE /* MUCharacterDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF7C272C5A0100D400AE /* MUCharacterDataContainer.swift */; };
+		1967CF7F272C5A0D00D400AE /* MUCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF7E272C5A0D00D400AE /* MUCharacter.swift */; };
+		1967CF82272C65E500D400AE /* MUUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF81272C65E500D400AE /* MUUrl.swift */; };
+		1967CF84272C665E00D400AE /* MUImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF83272C665E00D400AE /* MUImage.swift */; };
+		1967CF86272C67BC00D400AE /* MUComicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF85272C67BC00D400AE /* MUComicList.swift */; };
+		1967CF88272C683100D400AE /* MUComicSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF87272C683100D400AE /* MUComicSummary.swift */; };
+		1967CF8A272C687B00D400AE /* MUStoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF89272C687B00D400AE /* MUStoryList.swift */; };
+		1967CF8C272C68EC00D400AE /* MUStorySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF8B272C68EC00D400AE /* MUStorySummary.swift */; };
+		1967CF8E272C693D00D400AE /* MUEventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF8D272C693D00D400AE /* MUEventList.swift */; };
+		1967CF90272C699F00D400AE /* MUEventSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF8F272C699F00D400AE /* MUEventSummary.swift */; };
+		1967CF92272C69E300D400AE /* MUSeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF91272C69E300D400AE /* MUSeriesList.swift */; };
+		1967CF94272C6A5400D400AE /* MUSeriesSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF93272C6A5400D400AE /* MUSeriesSummary.swift */; };
+		1987F916272AF1C700BFA4DB /* MUBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F915272AF1C700BFA4DB /* MUBaseViewController.swift */; };
+		1987F918272AF48700BFA4DB /* MUBaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F917272AF48700BFA4DB /* MUBaseViewControllerProtocol.swift */; };
+		1987F91D272AF59400BFA4DB /* MUBasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F91C272AF59400BFA4DB /* MUBasePresenterProtocol.swift */; };
+		1987F920272AF5D600BFA4DB /* MUBasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F91F272AF5D600BFA4DB /* MUBasePresenter.swift */; };
+		1987F922272AF60400BFA4DB /* MUBaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F921272AF60400BFA4DB /* MUBaseRouter.swift */; };
+		1987F925272AFA4500BFA4DB /* MUOperationQueueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F924272AFA4500BFA4DB /* MUOperationQueueDelegate.swift */; };
+		1987F928272AFA7D00BFA4DB /* MUOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F927272AFA7D00BFA4DB /* MUOperationQueue.swift */; };
+		1987F92A272AFB5900BFA4DB /* MUAsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F929272AFB5900BFA4DB /* MUAsynchronousOperation.swift */; };
+		1987F92C272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F92B272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift */; };
+		1987F932272B085000BFA4DB /* MUNetworkProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F931272B085000BFA4DB /* MUNetworkProviderProtocol.swift */; };
+		1987F936272B087A00BFA4DB /* MUNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F935272B087A00BFA4DB /* MUNetworkProvider.swift */; };
+		1987F938272B0A4800BFA4DB /* MUBaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F937272B0A4800BFA4DB /* MUBaseUseCase.swift */; };
+		1987F93D272B0AF000BFA4DB /* MUAPIException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F93C272B0AF000BFA4DB /* MUAPIException.swift */; };
+		1987F941272B0E0800BFA4DB /* MURemoteDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F940272B0E0800BFA4DB /* MURemoteDataSourceProtocol.swift */; };
+		1987F944272B0E2E00BFA4DB /* MURemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F943272B0E2E00BFA4DB /* MURemoteDataSource.swift */; };
+		1987F946272B0F9C00BFA4DB /* MUApiClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F945272B0F9C00BFA4DB /* MUApiClientProtocol.swift */; };
+		1987F948272B10FE00BFA4DB /* MUEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F947272B10FE00BFA4DB /* MUEndpoint.swift */; };
 		19A4FC6527285EE1000A44BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A4FC6427285EE1000A44BA /* AppDelegate.swift */; };
 		19A4FC6727285EE1000A44BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A4FC6627285EE1000A44BA /* SceneDelegate.swift */; };
-		19A4FC6927285EE1000A44BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A4FC6827285EE1000A44BA /* ViewController.swift */; };
-		19A4FC6C27285EE1000A44BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A4FC6A27285EE1000A44BA /* Main.storyboard */; };
 		19A4FC6E27285EE2000A44BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A4FC6D27285EE2000A44BA /* Assets.xcassets */; };
 		19A4FC7127285EE2000A44BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A4FC6F27285EE2000A44BA /* LaunchScreen.storyboard */; };
+		19A4FC7F27286C16000A44BA /* MUCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A4FC7D27286C16000A44BA /* MUCharactersViewController.swift */; };
+		19A4FC8027286C16000A44BA /* MUCharactersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A4FC7E27286C16000A44BA /* MUCharactersViewController.xib */; };
+		19A4FC84272872D9000A44BA /* MUDependencyInjectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A4FC83272872D9000A44BA /* MUDependencyInjectionManager.swift */; };
+		19C90BC4272B122200F684F5 /* MUAPIHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC3272B122200F684F5 /* MUAPIHost.swift */; };
+		19C90BC6272B125500F684F5 /* MUAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC5272B125500F684F5 /* MUAPIResponse.swift */; };
+		19C90BC8272B128300F684F5 /* MUAPIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC7272B128300F684F5 /* MUAPIVersion.swift */; };
+		19C90BCA272B130B00F684F5 /* MUAPIErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */; };
+		19E45219272BD30800A37A0A /* MUConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E45218272BD30800A37A0A /* MUConstants.swift */; };
+		19E4521B272BEAB300A37A0A /* MUStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4521A272BEAB300A37A0A /* MUStringExtension.swift */; };
+		19FE284B272D2FEC00873B58 /* MUCharacterProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */; };
+		19FE284D272D2FFB00873B58 /* MUCharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE284C272D2FFB00873B58 /* MUCharacterProvider.swift */; };
+		19FE2854272D3B1A00873B58 /* MUCharacterResultUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2853272D3B1A00873B58 /* MUCharacterResultUseCase.swift */; };
+		19FE2856272D3B3500873B58 /* MUCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2855272D3B3500873B58 /* MUCharacterUseCase.swift */; };
+		19FE2858272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2857272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift */; };
+		19FE285A272D3C8600873B58 /* MULoadCharactersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2859272D3C8600873B58 /* MULoadCharactersUseCase.swift */; };
+		19FE285D272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE285C272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift */; };
+		19FE285F272D442A00873B58 /* MUCharacterUseCaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE285E272D442A00873B58 /* MUCharacterUseCaseMapper.swift */; };
+		6F97581D55A444FDBFA71464 /* Pods_marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1908CD87272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailResultUseCase.swift; sourceTree = "<group>"; };
+		1908CD89272EF6B600C45760 /* MUCharacterDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailUseCase.swift; sourceTree = "<group>"; };
+		1908CD8B272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailComicUseCase.swift; sourceTree = "<group>"; };
+		1908CD8D272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailSerieUseCase.swift; sourceTree = "<group>"; };
+		1908CD8F272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailComicSummaryUseCase.swift; sourceTree = "<group>"; };
+		1908CDA0272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailSerieSummaryUseCase.swift; sourceTree = "<group>"; };
+		1908CDA4272F08D000C45760 /* MUCharacterDetailSerieMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailSerieMapper.swift; sourceTree = "<group>"; };
+		1908CDA5272F08D000C45760 /* MUCharacaterDetailResultMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacaterDetailResultMapper.swift; sourceTree = "<group>"; };
+		1908CDA6272F08D000C45760 /* MUCharacterDetailMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailMapper.swift; sourceTree = "<group>"; };
+		1908CDA7272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailSerieSummaryMapper.swift; sourceTree = "<group>"; };
+		1908CDA8272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailComicSummaryMapper.swift; sourceTree = "<group>"; };
+		1908CDA9272F08D000C45760 /* MUCharacterDetailComicMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailComicMapper.swift; sourceTree = "<group>"; };
+		1908CDB0272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailProviderProtocol.swift; sourceTree = "<group>"; };
+		1908CDB2272F160C00C45760 /* MUCharacterDetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailProvider.swift; sourceTree = "<group>"; };
+		1908CDB4272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharacterDetailUseCaseProtocol.swift; sourceTree = "<group>"; };
+		1908CDB7272F183300C45760 /* MULoadCharacterDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharacterDetailUseCase.swift; sourceTree = "<group>"; };
+		1908CDB9272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailViewControllerProtocol.swift; sourceTree = "<group>"; };
+		1908CDBD272F1AC600C45760 /* MUCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailViewController.swift; sourceTree = "<group>"; };
+		1908CDBE272F1AC600C45760 /* MUCharacterDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUCharacterDetailViewController.xib; sourceTree = "<group>"; };
+		1908CDC1272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailPresenterProtocol.swift; sourceTree = "<group>"; };
+		1908CDC3272F1AF500C45760 /* MUCharacterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailPresenter.swift; sourceTree = "<group>"; };
+		1908CDC6272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailRouterProtocol.swift; sourceTree = "<group>"; };
+		1908CDC8272F2A0C00C45760 /* MUCharacterDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailRouter.swift; sourceTree = "<group>"; };
+		191184B82731C23700BA0F71 /* MUButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUButtonExtension.swift; sourceTree = "<group>"; };
+		191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTableViewExtension.swift; sourceTree = "<group>"; };
+		193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		1967CF68272C293400D400AE /* MUApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUApiClient.swift; sourceTree = "<group>"; };
+		1967CF6A272C294B00D400AE /* MUBaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseClient.swift; sourceTree = "<group>"; };
+		1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersViewControllerProtocol.swift; sourceTree = "<group>"; };
+		1967CF70272C3AF300D400AE /* MUCharactersPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersPresenterProtocol.swift; sourceTree = "<group>"; };
+		1967CF72272C3AFE00D400AE /* MUCharactersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersPresenter.swift; sourceTree = "<group>"; };
+		1967CF75272C3B9300D400AE /* MUCharactersRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersRouterProtocol.swift; sourceTree = "<group>"; };
+		1967CF77272C3B9B00D400AE /* MUCharactersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersRouter.swift; sourceTree = "<group>"; };
+		1967CF7A272C59E500D400AE /* MUCharacterDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDataWrapper.swift; sourceTree = "<group>"; };
+		1967CF7C272C5A0100D400AE /* MUCharacterDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDataContainer.swift; sourceTree = "<group>"; };
+		1967CF7E272C5A0D00D400AE /* MUCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacter.swift; sourceTree = "<group>"; };
+		1967CF81272C65E500D400AE /* MUUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUUrl.swift; sourceTree = "<group>"; };
+		1967CF83272C665E00D400AE /* MUImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUImage.swift; sourceTree = "<group>"; };
+		1967CF85272C67BC00D400AE /* MUComicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUComicList.swift; sourceTree = "<group>"; };
+		1967CF87272C683100D400AE /* MUComicSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUComicSummary.swift; sourceTree = "<group>"; };
+		1967CF89272C687B00D400AE /* MUStoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStoryList.swift; sourceTree = "<group>"; };
+		1967CF8B272C68EC00D400AE /* MUStorySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStorySummary.swift; sourceTree = "<group>"; };
+		1967CF8D272C693D00D400AE /* MUEventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUEventList.swift; sourceTree = "<group>"; };
+		1967CF8F272C699F00D400AE /* MUEventSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUEventSummary.swift; sourceTree = "<group>"; };
+		1967CF91272C69E300D400AE /* MUSeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUSeriesList.swift; sourceTree = "<group>"; };
+		1967CF93272C6A5400D400AE /* MUSeriesSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUSeriesSummary.swift; sourceTree = "<group>"; };
+		1987F915272AF1C700BFA4DB /* MUBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseViewController.swift; sourceTree = "<group>"; };
+		1987F917272AF48700BFA4DB /* MUBaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		1987F91C272AF59400BFA4DB /* MUBasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBasePresenterProtocol.swift; sourceTree = "<group>"; };
+		1987F91F272AF5D600BFA4DB /* MUBasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBasePresenter.swift; sourceTree = "<group>"; };
+		1987F921272AF60400BFA4DB /* MUBaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseRouter.swift; sourceTree = "<group>"; };
+		1987F924272AFA4500BFA4DB /* MUOperationQueueDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUOperationQueueDelegate.swift; sourceTree = "<group>"; };
+		1987F927272AFA7D00BFA4DB /* MUOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUOperationQueue.swift; sourceTree = "<group>"; };
+		1987F929272AFB5900BFA4DB /* MUAsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAsynchronousOperation.swift; sourceTree = "<group>"; };
+		1987F92B272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAsynchronousBlockOperation.swift; sourceTree = "<group>"; };
+		1987F931272B085000BFA4DB /* MUNetworkProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNetworkProviderProtocol.swift; sourceTree = "<group>"; };
+		1987F935272B087A00BFA4DB /* MUNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNetworkProvider.swift; sourceTree = "<group>"; };
+		1987F937272B0A4800BFA4DB /* MUBaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseUseCase.swift; sourceTree = "<group>"; };
+		1987F93C272B0AF000BFA4DB /* MUAPIException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIException.swift; sourceTree = "<group>"; };
+		1987F940272B0E0800BFA4DB /* MURemoteDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MURemoteDataSourceProtocol.swift; sourceTree = "<group>"; };
+		1987F943272B0E2E00BFA4DB /* MURemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MURemoteDataSource.swift; sourceTree = "<group>"; };
+		1987F945272B0F9C00BFA4DB /* MUApiClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUApiClientProtocol.swift; sourceTree = "<group>"; };
+		1987F947272B10FE00BFA4DB /* MUEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUEndpoint.swift; sourceTree = "<group>"; };
 		19A4FC6127285EE1000A44BA /* marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A4FC6427285EE1000A44BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19A4FC6627285EE1000A44BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19A4FC6827285EE1000A44BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19A4FC6B27285EE1000A44BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19A4FC6D27285EE2000A44BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A4FC7027285EE2000A44BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19A4FC7227285EE3000A44BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A4FC7D27286C16000A44BA /* MUCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersViewController.swift; sourceTree = "<group>"; };
+		19A4FC7E27286C16000A44BA /* MUCharactersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUCharactersViewController.xib; sourceTree = "<group>"; };
+		19A4FC83272872D9000A44BA /* MUDependencyInjectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUDependencyInjectionManager.swift; sourceTree = "<group>"; };
+		19C90BC3272B122200F684F5 /* MUAPIHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIHost.swift; sourceTree = "<group>"; };
+		19C90BC5272B125500F684F5 /* MUAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIResponse.swift; sourceTree = "<group>"; };
+		19C90BC7272B128300F684F5 /* MUAPIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIVersion.swift; sourceTree = "<group>"; };
+		19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIErrorCode.swift; sourceTree = "<group>"; };
+		19E45218272BD30800A37A0A /* MUConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUConstants.swift; sourceTree = "<group>"; };
+		19E4521A272BEAB300A37A0A /* MUStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStringExtension.swift; sourceTree = "<group>"; };
+		19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProviderProtocol.swift; sourceTree = "<group>"; };
+		19FE284C272D2FFB00873B58 /* MUCharacterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProvider.swift; sourceTree = "<group>"; };
+		19FE2853272D3B1A00873B58 /* MUCharacterResultUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterResultUseCase.swift; sourceTree = "<group>"; };
+		19FE2855272D3B3500873B58 /* MUCharacterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterUseCase.swift; sourceTree = "<group>"; };
+		19FE2857272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharactersUseCaseProtocol.swift; sourceTree = "<group>"; };
+		19FE2859272D3C8600873B58 /* MULoadCharactersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharactersUseCase.swift; sourceTree = "<group>"; };
+		19FE285C272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterResultUseCaseMapper.swift; sourceTree = "<group>"; };
+		19FE285E272D442A00873B58 /* MUCharacterUseCaseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterUseCaseMapper.swift; sourceTree = "<group>"; };
+		246A9CD2746E81A78DFD75F0 /* Pods-marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel.release.xcconfig"; path = "Target Support Files/Pods-marvel/Pods-marvel.release.xcconfig"; sourceTree = "<group>"; };
+		8CD40D74A7DAE4CC75ABE20E /* Pods-marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel.debug.xcconfig"; path = "Target Support Files/Pods-marvel/Pods-marvel.debug.xcconfig"; sourceTree = "<group>"; };
+		E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +193,355 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F97581D55A444FDBFA71464 /* Pods_marvel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1908CD7F272EEE0500C45760 /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDBB272F1A9700C45760 /* Presentation */,
+				1908CD84272EEE6A00C45760 /* Domain */,
+				1908CD94272EFEB000C45760 /* Data */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		1908CD84272EEE6A00C45760 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1908CD91272EFCF500C45760 /* Model */,
+				1908CDB6272F182600C45760 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1908CD91272EFCF500C45760 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1908CD87272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift */,
+				1908CD89272EF6B600C45760 /* MUCharacterDetailUseCase.swift */,
+				1908CD8B272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift */,
+				1908CD8D272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift */,
+				1908CD8F272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift */,
+				1908CDA0272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1908CD94272EFEB000C45760 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1908CD96272EFEDA00C45760 /* Provider */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1908CD96272EFEDA00C45760 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDB0272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift */,
+				1908CDB2272F160C00C45760 /* MUCharacterDetailProvider.swift */,
+				1908CD97272EFEE700C45760 /* Mapper */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		1908CD97272EFEE700C45760 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDA5272F08D000C45760 /* MUCharacaterDetailResultMapper.swift */,
+				1908CDA6272F08D000C45760 /* MUCharacterDetailMapper.swift */,
+				1908CDA9272F08D000C45760 /* MUCharacterDetailComicMapper.swift */,
+				1908CDA4272F08D000C45760 /* MUCharacterDetailSerieMapper.swift */,
+				1908CDA8272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift */,
+				1908CDA7272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		1908CDB6272F182600C45760 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDB4272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift */,
+				1908CDB7272F183300C45760 /* MULoadCharacterDetailUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		1908CDBB272F1A9700C45760 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDBC272F1AA500C45760 /* UI */,
+				1908CDC5272F1AFC00C45760 /* Presenter */,
+				1908CDCA272F2A1100C45760 /* Router */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1908CDBC272F1AA500C45760 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDB9272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift */,
+				1908CDBD272F1AC600C45760 /* MUCharacterDetailViewController.swift */,
+				1908CDBE272F1AC600C45760 /* MUCharacterDetailViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1908CDC5272F1AFC00C45760 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDC1272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift */,
+				1908CDC3272F1AF500C45760 /* MUCharacterDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1908CDCA272F2A1100C45760 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1908CDC6272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift */,
+				1908CDC8272F2A0C00C45760 /* MUCharacterDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		191701822732C7F300474D00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19A4FC6D27285EE2000A44BA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		191701832732C80F00474D00 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				19A4FC7227285EE3000A44BA /* Info.plist */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		191701842732C88200474D00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19E4521A272BEAB300A37A0A /* MUStringExtension.swift */,
+				191184B82731C23700BA0F71 /* MUButtonExtension.swift */,
+				191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1967CF6C272C38F800D400AE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF6D272C395900D400AE /* UI */,
+				1967CF74272C3B0300D400AE /* Presenter */,
+				1967CF79272C3BA000D400AE /* Router */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1967CF6D272C395900D400AE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */,
+				19A4FC7D27286C16000A44BA /* MUCharactersViewController.swift */,
+				19A4FC7E27286C16000A44BA /* MUCharactersViewController.xib */,
+				193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */,
+				193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1967CF74272C3B0300D400AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF70272C3AF300D400AE /* MUCharactersPresenterProtocol.swift */,
+				1967CF72272C3AFE00D400AE /* MUCharactersPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1967CF79272C3BA000D400AE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF75272C3B9300D400AE /* MUCharactersRouterProtocol.swift */,
+				1967CF77272C3B9B00D400AE /* MUCharactersRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1967CF80272C65A500D400AE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF7A272C59E500D400AE /* MUCharacterDataWrapper.swift */,
+				1967CF7C272C5A0100D400AE /* MUCharacterDataContainer.swift */,
+				1967CF7E272C5A0D00D400AE /* MUCharacter.swift */,
+				1967CF81272C65E500D400AE /* MUUrl.swift */,
+				1967CF83272C665E00D400AE /* MUImage.swift */,
+				1967CF85272C67BC00D400AE /* MUComicList.swift */,
+				1967CF87272C683100D400AE /* MUComicSummary.swift */,
+				1967CF89272C687B00D400AE /* MUStoryList.swift */,
+				1967CF8B272C68EC00D400AE /* MUStorySummary.swift */,
+				1967CF8D272C693D00D400AE /* MUEventList.swift */,
+				1967CF8F272C699F00D400AE /* MUEventSummary.swift */,
+				1967CF91272C69E300D400AE /* MUSeriesList.swift */,
+				1967CF93272C6A5400D400AE /* MUSeriesSummary.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1967CF9A272C743900D400AE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				19FE284E272D300200873B58 /* Provider */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1987F919272AF4FE00BFA4DB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1987F91A272AF51300BFA4DB /* Presentation */,
+				1987F939272B0A5000BFA4DB /* Domain */,
+				1987F933272B085700BFA4DB /* Data */,
+				19A4FC85272872DC000A44BA /* System */,
+				191701822732C7F300474D00 /* Resources */,
+				191701832732C80F00474D00 /* OtherFiles */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1987F91A272AF51300BFA4DB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1987F91B272AF53100BFA4DB /* ViewController */,
+				1987F91E272AF5A400BFA4DB /* Presenter */,
+				1987F923272AF60B00BFA4DB /* Router */,
+				19A4FC6F27285EE2000A44BA /* LaunchScreen.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1987F91B272AF53100BFA4DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1987F917272AF48700BFA4DB /* MUBaseViewControllerProtocol.swift */,
+				1987F915272AF1C700BFA4DB /* MUBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1987F91E272AF5A400BFA4DB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1987F926272AFA4C00BFA4DB /* Operation */,
+				1987F91C272AF59400BFA4DB /* MUBasePresenterProtocol.swift */,
+				1987F91F272AF5D600BFA4DB /* MUBasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1987F923272AF60B00BFA4DB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1987F921272AF60400BFA4DB /* MUBaseRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1987F926272AFA4C00BFA4DB /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				1987F924272AFA4500BFA4DB /* MUOperationQueueDelegate.swift */,
+				1987F927272AFA7D00BFA4DB /* MUOperationQueue.swift */,
+				1987F929272AFB5900BFA4DB /* MUAsynchronousOperation.swift */,
+				1987F92B272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		1987F933272B085700BFA4DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1987F934272B086100BFA4DB /* Provider */,
+				1987F942272B0E0D00BFA4DB /* DataSource */,
+				1987F93E272B0AFD00BFA4DB /* Client */,
+				1967CF80272C65A500D400AE /* Entity */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1987F934272B086100BFA4DB /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				1987F931272B085000BFA4DB /* MUNetworkProviderProtocol.swift */,
+				1987F935272B087A00BFA4DB /* MUNetworkProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		1987F939272B0A5000BFA4DB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1987F93A272B0A5C00BFA4DB /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1987F93A272B0A5C00BFA4DB /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				1987F937272B0A4800BFA4DB /* MUBaseUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		1987F93E272B0AFD00BFA4DB /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1987F93F272B0B0600BFA4DB /* Poso */,
+				1987F945272B0F9C00BFA4DB /* MUApiClientProtocol.swift */,
+				1967CF68272C293400D400AE /* MUApiClient.swift */,
+				1967CF6A272C294B00D400AE /* MUBaseClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		1987F93F272B0B0600BFA4DB /* Poso */ = {
+			isa = PBXGroup;
+			children = (
+				1987F947272B10FE00BFA4DB /* MUEndpoint.swift */,
+				19C90BC3272B122200F684F5 /* MUAPIHost.swift */,
+				19C90BC5272B125500F684F5 /* MUAPIResponse.swift */,
+				19C90BC7272B128300F684F5 /* MUAPIVersion.swift */,
+				1987F93C272B0AF000BFA4DB /* MUAPIException.swift */,
+				19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */,
+			);
+			path = Poso;
+			sourceTree = "<group>";
+		};
+		1987F942272B0E0D00BFA4DB /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1987F940272B0E0800BFA4DB /* MURemoteDataSourceProtocol.swift */,
+				1987F943272B0E2E00BFA4DB /* MURemoteDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		19A4FC5827285EE1000A44BA = {
 			isa = PBXGroup;
 			children = (
 				19A4FC6327285EE1000A44BA /* marvel */,
 				19A4FC6227285EE1000A44BA /* Products */,
+				90FF23432162C78DEDB46FAD /* Pods */,
+				B3245806631E95EE4AD3B714 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +558,94 @@
 			children = (
 				19A4FC6427285EE1000A44BA /* AppDelegate.swift */,
 				19A4FC6627285EE1000A44BA /* SceneDelegate.swift */,
-				19A4FC6827285EE1000A44BA /* ViewController.swift */,
-				19A4FC6A27285EE1000A44BA /* Main.storyboard */,
-				19A4FC6D27285EE2000A44BA /* Assets.xcassets */,
-				19A4FC6F27285EE2000A44BA /* LaunchScreen.storyboard */,
-				19A4FC7227285EE3000A44BA /* Info.plist */,
+				19A4FC8227286C31000A44BA /* Characters */,
+				1908CD7F272EEE0500C45760 /* CharacterDetail */,
+				1987F919272AF4FE00BFA4DB /* Core */,
 			);
 			path = marvel;
+			sourceTree = "<group>";
+		};
+		19A4FC8227286C31000A44BA /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				1967CF6C272C38F800D400AE /* Presentation */,
+				19FE2851272D3A4F00873B58 /* Domain */,
+				1967CF9A272C743900D400AE /* Data */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		19A4FC85272872DC000A44BA /* System */ = {
+			isa = PBXGroup;
+			children = (
+				191701842732C88200474D00 /* Extensions */,
+				19A4FC83272872D9000A44BA /* MUDependencyInjectionManager.swift */,
+				19E45218272BD30800A37A0A /* MUConstants.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		19FE284E272D300200873B58 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */,
+				19FE284C272D2FFB00873B58 /* MUCharacterProvider.swift */,
+				19FE2860272D442E00873B58 /* Mapper */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		19FE2851272D3A4F00873B58 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				19FE2852272D3A5A00873B58 /* Model */,
+				19FE285B272D3C8C00873B58 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		19FE2852272D3A5A00873B58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19FE2853272D3B1A00873B58 /* MUCharacterResultUseCase.swift */,
+				19FE2855272D3B3500873B58 /* MUCharacterUseCase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19FE285B272D3C8C00873B58 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				19FE2857272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift */,
+				19FE2859272D3C8600873B58 /* MULoadCharactersUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		19FE2860272D442E00873B58 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				19FE285C272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift */,
+				19FE285E272D442A00873B58 /* MUCharacterUseCaseMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		90FF23432162C78DEDB46FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD40D74A7DAE4CC75ABE20E /* Pods-marvel.debug.xcconfig */,
+				246A9CD2746E81A78DFD75F0 /* Pods-marvel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3245806631E95EE4AD3B714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +655,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19A4FC7527285EE3000A44BA /* Build configuration list for PBXNativeTarget "marvel" */;
 			buildPhases = (
+				71950519DF19B2639454FD89 /* [CP] Check Pods Manifest.lock */,
 				19A4FC5D27285EE1000A44BA /* Sources */,
 				19A4FC5E27285EE1000A44BA /* Frameworks */,
 				19A4FC5F27285EE1000A44BA /* Resources */,
+				ECC7A50E0D0C1E303ECDA73F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +708,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1908CDC0272F1AC600C45760 /* MUCharacterDetailViewController.xib in Resources */,
 				19A4FC7127285EE2000A44BA /* LaunchScreen.storyboard in Resources */,
 				19A4FC6E27285EE2000A44BA /* Assets.xcassets in Resources */,
-				19A4FC6C27285EE1000A44BA /* Main.storyboard in Resources */,
+				19A4FC8027286C16000A44BA /* MUCharactersViewController.xib in Resources */,
+				193E69F0272EA3D700AF5199 /* MUCharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71950519DF19B2639454FD89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marvel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC7A50E0D0C1E303ECDA73F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19A4FC5D27285EE1000A44BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A4FC6927285EE1000A44BA /* ViewController.swift in Sources */,
+				19C90BC4272B122200F684F5 /* MUAPIHost.swift in Sources */,
+				1908CDC7272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift in Sources */,
+				1987F936272B087A00BFA4DB /* MUNetworkProvider.swift in Sources */,
+				19A4FC84272872D9000A44BA /* MUDependencyInjectionManager.swift in Sources */,
+				1987F932272B085000BFA4DB /* MUNetworkProviderProtocol.swift in Sources */,
+				19E4521B272BEAB300A37A0A /* MUStringExtension.swift in Sources */,
+				1987F92C272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift in Sources */,
+				191184BB2731C76800BA0F71 /* MUTableViewExtension.swift in Sources */,
+				19E45219272BD30800A37A0A /* MUConstants.swift in Sources */,
+				19C90BC6272B125500F684F5 /* MUAPIResponse.swift in Sources */,
+				1987F944272B0E2E00BFA4DB /* MURemoteDataSource.swift in Sources */,
+				19FE284D272D2FFB00873B58 /* MUCharacterProvider.swift in Sources */,
+				1908CDC9272F2A0C00C45760 /* MUCharacterDetailRouter.swift in Sources */,
+				19C90BC8272B128300F684F5 /* MUAPIVersion.swift in Sources */,
+				1967CF84272C665E00D400AE /* MUImage.swift in Sources */,
+				1987F938272B0A4800BFA4DB /* MUBaseUseCase.swift in Sources */,
+				1908CD90272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift in Sources */,
+				1967CF8E272C693D00D400AE /* MUEventList.swift in Sources */,
+				1908CDAF272F08D000C45760 /* MUCharacterDetailComicMapper.swift in Sources */,
+				1967CF76272C3B9300D400AE /* MUCharactersRouterProtocol.swift in Sources */,
+				1967CF7F272C5A0D00D400AE /* MUCharacter.swift in Sources */,
+				1987F922272AF60400BFA4DB /* MUBaseRouter.swift in Sources */,
+				1987F925272AFA4500BFA4DB /* MUOperationQueueDelegate.swift in Sources */,
+				1987F948272B10FE00BFA4DB /* MUEndpoint.swift in Sources */,
+				1908CDB5272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift in Sources */,
+				19FE2854272D3B1A00873B58 /* MUCharacterResultUseCase.swift in Sources */,
+				1967CF92272C69E300D400AE /* MUSeriesList.swift in Sources */,
+				1908CDAC272F08D000C45760 /* MUCharacterDetailMapper.swift in Sources */,
+				19FE2856272D3B3500873B58 /* MUCharacterUseCase.swift in Sources */,
 				19A4FC6527285EE1000A44BA /* AppDelegate.swift in Sources */,
 				19A4FC6727285EE1000A44BA /* SceneDelegate.swift in Sources */,
+				1908CD8C272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift in Sources */,
+				1967CF73272C3AFE00D400AE /* MUCharactersPresenter.swift in Sources */,
+				1987F91D272AF59400BFA4DB /* MUBasePresenterProtocol.swift in Sources */,
+				1967CF8A272C687B00D400AE /* MUStoryList.swift in Sources */,
+				1908CDB8272F183300C45760 /* MULoadCharacterDetailUseCase.swift in Sources */,
+				1967CF94272C6A5400D400AE /* MUSeriesSummary.swift in Sources */,
+				191184B92731C23700BA0F71 /* MUButtonExtension.swift in Sources */,
+				193E69EF272EA3D700AF5199 /* MUCharacterTableViewCell.swift in Sources */,
+				1908CDBF272F1AC600C45760 /* MUCharacterDetailViewController.swift in Sources */,
+				1967CF8C272C68EC00D400AE /* MUStorySummary.swift in Sources */,
+				1967CF71272C3AF300D400AE /* MUCharactersPresenterProtocol.swift in Sources */,
+				1987F916272AF1C700BFA4DB /* MUBaseViewController.swift in Sources */,
+				1967CF6F272C39B700D400AE /* MUCharactersViewControllerProtocol.swift in Sources */,
+				1967CF82272C65E500D400AE /* MUUrl.swift in Sources */,
+				1908CDAA272F08D000C45760 /* MUCharacterDetailSerieMapper.swift in Sources */,
+				1967CF90272C699F00D400AE /* MUEventSummary.swift in Sources */,
+				1908CDAB272F08D000C45760 /* MUCharacaterDetailResultMapper.swift in Sources */,
+				1908CDC4272F1AF500C45760 /* MUCharacterDetailPresenter.swift in Sources */,
+				1908CDB1272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift in Sources */,
+				19FE2858272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift in Sources */,
+				1908CDC2272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift in Sources */,
+				1967CF78272C3B9B00D400AE /* MUCharactersRouter.swift in Sources */,
+				1967CF6B272C294B00D400AE /* MUBaseClient.swift in Sources */,
+				1908CD8A272EF6B600C45760 /* MUCharacterDetailUseCase.swift in Sources */,
+				19FE284B272D2FEC00873B58 /* MUCharacterProviderProtocol.swift in Sources */,
+				1908CDAD272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift in Sources */,
+				1987F920272AF5D600BFA4DB /* MUBasePresenter.swift in Sources */,
+				1967CF69272C293400D400AE /* MUApiClient.swift in Sources */,
+				1987F946272B0F9C00BFA4DB /* MUApiClientProtocol.swift in Sources */,
+				1908CDBA272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift in Sources */,
+				1987F941272B0E0800BFA4DB /* MURemoteDataSourceProtocol.swift in Sources */,
+				19FE285F272D442A00873B58 /* MUCharacterUseCaseMapper.swift in Sources */,
+				19FE285D272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift in Sources */,
+				19A4FC7F27286C16000A44BA /* MUCharactersViewController.swift in Sources */,
+				1967CF88272C683100D400AE /* MUComicSummary.swift in Sources */,
+				1908CD8E272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift in Sources */,
+				1908CD88272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift in Sources */,
+				1987F918272AF48700BFA4DB /* MUBaseViewControllerProtocol.swift in Sources */,
+				1908CDA1272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift in Sources */,
+				1987F928272AFA7D00BFA4DB /* MUOperationQueue.swift in Sources */,
+				1987F92A272AFB5900BFA4DB /* MUAsynchronousOperation.swift in Sources */,
+				19FE285A272D3C8600873B58 /* MULoadCharactersUseCase.swift in Sources */,
+				1908CDB3272F160C00C45760 /* MUCharacterDetailProvider.swift in Sources */,
+				19C90BCA272B130B00F684F5 /* MUAPIErrorCode.swift in Sources */,
+				1967CF7D272C5A0100D400AE /* MUCharacterDataContainer.swift in Sources */,
+				1967CF86272C67BC00D400AE /* MUComicList.swift in Sources */,
+				1908CDAE272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift in Sources */,
+				1967CF7B272C59E500D400AE /* MUCharacterDataWrapper.swift in Sources */,
+				1987F93D272B0AF000BFA4DB /* MUAPIException.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		19A4FC6A27285EE1000A44BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19A4FC6B27285EE1000A44BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19A4FC6F27285EE2000A44BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,25 +980,28 @@
 		};
 		19A4FC7627285EE3000A44BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD40D74A7DAE4CC75ABE20E /* Pods-marvel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = marvel/Info.plist;
+				INFOPLIST_FILE = marvel/Core/OtherFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moraleda.dani.marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +1010,28 @@
 		};
 		19A4FC7727285EE3000A44BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246A9CD2746E81A78DFD75F0 /* Pods-marvel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = marvel/Info.plist;
+				INFOPLIST_FILE = marvel/Core/OtherFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moraleda.dani.marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
