@@ -192,7 +192,12 @@ extension MUCharactersViewController: MUCharactersViewControllerProtocol {
     }
     
     func showError(exception: MUAPIException?) {
-        showAlert(title: "Error", mssg: exception?.localizedDescription ?? "Unknown Error")
+        switch exception{
+        case .unknownException:
+            showAlert(title: "Error", mssg: MUAPIExceptionMessage.unknownException.rawValue)
+        default:
+            showAlert(title: "Error", mssg: exception?.localizedDescription ?? "Unknown Error")
+        }
     }
     
     func displayCharacters(_ charactersList: [MUCharacterUseCase], offset: Int, total: Int, limit: Int) {

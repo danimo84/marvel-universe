@@ -14,3 +14,7 @@ enum MUAPIException: Error {
     case characterNotFoundException
     case unknownException
 }
+
+enum MUAPIExceptionMessage: String {
+    case unknownException = "Are you config your Private and Public key on info.plist?"
+}
