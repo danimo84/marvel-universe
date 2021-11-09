@@ -11,9 +11,13 @@ class MUCharacterDetailUseCase: MUCharacterUseCase {
     
     var series: MUCharacterDetailSerieUseCase?
     var comics: MUCharacterDetailComicUseCase?
+    var stories: MUCharacterDetailStoryUseCase?
+    var events: MUCharacterDetailEventUseCase?
     
     override init() {
         series = nil
         comics = nil
+        stories = nil
+        events = nil
     }
 }

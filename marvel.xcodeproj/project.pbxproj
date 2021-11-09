@@ -34,6 +34,14 @@
 		191184BB2731C76800BA0F71 /* MUTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */; };
 		193E69EF272EA3D700AF5199 /* MUCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */; };
 		193E69F0272EA3D700AF5199 /* MUCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */; };
+		194351642735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351632735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift */; };
+		194351662735AEA6009567E6 /* MUCharacterDetailStorySummaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351652735AEA6009567E6 /* MUCharacterDetailStorySummaryUseCase.swift */; };
+		194351682735AEFF009567E6 /* MUCharacterDetailEventUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351672735AEFF009567E6 /* MUCharacterDetailEventUseCase.swift */; };
+		1943516A2735AF0E009567E6 /* MUCharacterDetailEventSummaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351692735AF0E009567E6 /* MUCharacterDetailEventSummaryUseCase.swift */; };
+		1943516C2735B02E009567E6 /* MUCharacterDetailStorySummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943516B2735B02E009567E6 /* MUCharacterDetailStorySummaryMapper.swift */; };
+		1943516E2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943516D2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift */; };
+		194351702735B168009567E6 /* MUCharacterDetailStoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943516F2735B168009567E6 /* MUCharacterDetailStoryMapper.swift */; };
+		194351722735B17A009567E6 /* MUCharacterDetailEventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351712735B17A009567E6 /* MUCharacterDetailEventMapper.swift */; };
 		1967CF69272C293400D400AE /* MUApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF68272C293400D400AE /* MUApiClient.swift */; };
 		1967CF6B272C294B00D400AE /* MUBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6A272C294B00D400AE /* MUBaseClient.swift */; };
 		1967CF6F272C39B700D400AE /* MUCharactersViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */; };
@@ -84,6 +92,8 @@
 		19C90BCA272B130B00F684F5 /* MUAPIErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */; };
 		19E45219272BD30800A37A0A /* MUConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E45218272BD30800A37A0A /* MUConstants.swift */; };
 		19E4521B272BEAB300A37A0A /* MUStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4521A272BEAB300A37A0A /* MUStringExtension.swift */; };
+		19EE5A4E273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE5A4C273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift */; };
+		19EE5A4F273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19EE5A4D273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib */; };
 		19FE284B272D2FEC00873B58 /* MUCharacterProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */; };
 		19FE284D272D2FFB00873B58 /* MUCharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE284C272D2FFB00873B58 /* MUCharacterProvider.swift */; };
 		19FE2854272D3B1A00873B58 /* MUCharacterResultUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2853272D3B1A00873B58 /* MUCharacterResultUseCase.swift */; };
@@ -123,6 +133,14 @@
 		191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTableViewExtension.swift; sourceTree = "<group>"; };
 		193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterTableViewCell.swift; sourceTree = "<group>"; };
 		193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		194351632735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailStoryUseCase.swift; sourceTree = "<group>"; };
+		194351652735AEA6009567E6 /* MUCharacterDetailStorySummaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailStorySummaryUseCase.swift; sourceTree = "<group>"; };
+		194351672735AEFF009567E6 /* MUCharacterDetailEventUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventUseCase.swift; sourceTree = "<group>"; };
+		194351692735AF0E009567E6 /* MUCharacterDetailEventSummaryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventSummaryUseCase.swift; sourceTree = "<group>"; };
+		1943516B2735B02E009567E6 /* MUCharacterDetailStorySummaryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailStorySummaryMapper.swift; sourceTree = "<group>"; };
+		1943516D2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventSummaryMapper.swift; sourceTree = "<group>"; };
+		1943516F2735B168009567E6 /* MUCharacterDetailStoryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailStoryMapper.swift; sourceTree = "<group>"; };
+		194351712735B17A009567E6 /* MUCharacterDetailEventMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventMapper.swift; sourceTree = "<group>"; };
 		1967CF68272C293400D400AE /* MUApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUApiClient.swift; sourceTree = "<group>"; };
 		1967CF6A272C294B00D400AE /* MUBaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseClient.swift; sourceTree = "<group>"; };
 		1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersViewControllerProtocol.swift; sourceTree = "<group>"; };
@@ -175,6 +193,8 @@
 		19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIErrorCode.swift; sourceTree = "<group>"; };
 		19E45218272BD30800A37A0A /* MUConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUConstants.swift; sourceTree = "<group>"; };
 		19E4521A272BEAB300A37A0A /* MUStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStringExtension.swift; sourceTree = "<group>"; };
+		19EE5A4C273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		19EE5A4D273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProviderProtocol.swift; sourceTree = "<group>"; };
 		19FE284C272D2FFB00873B58 /* MUCharacterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProvider.swift; sourceTree = "<group>"; };
 		19FE2853272D3B1A00873B58 /* MUCharacterResultUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterResultUseCase.swift; sourceTree = "<group>"; };
@@ -226,8 +246,12 @@
 				1908CD89272EF6B600C45760 /* MUCharacterDetailUseCase.swift */,
 				1908CD8B272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift */,
 				1908CD8D272EFB4C00C45760 /* MUCharacterDetailSerieUseCase.swift */,
+				194351632735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift */,
+				194351672735AEFF009567E6 /* MUCharacterDetailEventUseCase.swift */,
 				1908CD8F272EFC3C00C45760 /* MUCharacterDetailComicSummaryUseCase.swift */,
 				1908CDA0272F02BE00C45760 /* MUCharacterDetailSerieSummaryUseCase.swift */,
+				194351652735AEA6009567E6 /* MUCharacterDetailStorySummaryUseCase.swift */,
+				194351692735AF0E009567E6 /* MUCharacterDetailEventSummaryUseCase.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,8 +281,12 @@
 				1908CDA6272F08D000C45760 /* MUCharacterDetailMapper.swift */,
 				1908CDA9272F08D000C45760 /* MUCharacterDetailComicMapper.swift */,
 				1908CDA4272F08D000C45760 /* MUCharacterDetailSerieMapper.swift */,
+				1943516F2735B168009567E6 /* MUCharacterDetailStoryMapper.swift */,
+				194351712735B17A009567E6 /* MUCharacterDetailEventMapper.swift */,
 				1908CDA8272F08D000C45760 /* MUCharacterDetailComicSummaryMapper.swift */,
 				1908CDA7272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift */,
+				1943516B2735B02E009567E6 /* MUCharacterDetailStorySummaryMapper.swift */,
+				1943516D2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -288,6 +316,8 @@
 				1908CDB9272F1A8D00C45760 /* MUCharacterDetailViewControllerProtocol.swift */,
 				1908CDBD272F1AC600C45760 /* MUCharacterDetailViewController.swift */,
 				1908CDBE272F1AC600C45760 /* MUCharacterDetailViewController.xib */,
+				19EE5A4C273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift */,
+				19EE5A4D273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -713,6 +743,7 @@
 				19A4FC6E27285EE2000A44BA /* Assets.xcassets in Resources */,
 				19A4FC8027286C16000A44BA /* MUCharactersViewController.xib in Resources */,
 				193E69F0272EA3D700AF5199 /* MUCharacterTableViewCell.xib in Resources */,
+				19EE5A4F273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,8 +800,12 @@
 				1908CDC7272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift in Sources */,
 				1987F936272B087A00BFA4DB /* MUNetworkProvider.swift in Sources */,
 				19A4FC84272872D9000A44BA /* MUDependencyInjectionManager.swift in Sources */,
+				194351642735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift in Sources */,
+				19EE5A4E273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift in Sources */,
 				1987F932272B085000BFA4DB /* MUNetworkProviderProtocol.swift in Sources */,
+				194351722735B17A009567E6 /* MUCharacterDetailEventMapper.swift in Sources */,
 				19E4521B272BEAB300A37A0A /* MUStringExtension.swift in Sources */,
+				1943516C2735B02E009567E6 /* MUCharacterDetailStorySummaryMapper.swift in Sources */,
 				1987F92C272AFB8D00BFA4DB /* MUAsynchronousBlockOperation.swift in Sources */,
 				191184BB2731C76800BA0F71 /* MUTableViewExtension.swift in Sources */,
 				19E45219272BD30800A37A0A /* MUConstants.swift in Sources */,
@@ -790,6 +825,7 @@
 				1987F925272AFA4500BFA4DB /* MUOperationQueueDelegate.swift in Sources */,
 				1987F948272B10FE00BFA4DB /* MUEndpoint.swift in Sources */,
 				1908CDB5272F181D00C45760 /* MULoadCharacterDetailUseCaseProtocol.swift in Sources */,
+				194351702735B168009567E6 /* MUCharacterDetailStoryMapper.swift in Sources */,
 				19FE2854272D3B1A00873B58 /* MUCharacterResultUseCase.swift in Sources */,
 				1967CF92272C69E300D400AE /* MUSeriesList.swift in Sources */,
 				1908CDAC272F08D000C45760 /* MUCharacterDetailMapper.swift in Sources */,
@@ -798,6 +834,7 @@
 				19A4FC6727285EE1000A44BA /* SceneDelegate.swift in Sources */,
 				1908CD8C272EFABA00C45760 /* MUCharacterDetailComicUseCase.swift in Sources */,
 				1967CF73272C3AFE00D400AE /* MUCharactersPresenter.swift in Sources */,
+				1943516E2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift in Sources */,
 				1987F91D272AF59400BFA4DB /* MUBasePresenterProtocol.swift in Sources */,
 				1967CF8A272C687B00D400AE /* MUStoryList.swift in Sources */,
 				1908CDB8272F183300C45760 /* MULoadCharacterDetailUseCase.swift in Sources */,
@@ -809,18 +846,21 @@
 				1967CF71272C3AF300D400AE /* MUCharactersPresenterProtocol.swift in Sources */,
 				1987F916272AF1C700BFA4DB /* MUBaseViewController.swift in Sources */,
 				1967CF6F272C39B700D400AE /* MUCharactersViewControllerProtocol.swift in Sources */,
+				194351682735AEFF009567E6 /* MUCharacterDetailEventUseCase.swift in Sources */,
 				1967CF82272C65E500D400AE /* MUUrl.swift in Sources */,
 				1908CDAA272F08D000C45760 /* MUCharacterDetailSerieMapper.swift in Sources */,
 				1967CF90272C699F00D400AE /* MUEventSummary.swift in Sources */,
 				1908CDAB272F08D000C45760 /* MUCharacaterDetailResultMapper.swift in Sources */,
 				1908CDC4272F1AF500C45760 /* MUCharacterDetailPresenter.swift in Sources */,
 				1908CDB1272F15F800C45760 /* MUCharacterDetailProviderProtocol.swift in Sources */,
+				1943516A2735AF0E009567E6 /* MUCharacterDetailEventSummaryUseCase.swift in Sources */,
 				19FE2858272D3C7C00873B58 /* MULoadCharactersUseCaseProtocol.swift in Sources */,
 				1908CDC2272F1AEB00C45760 /* MUCharacterDetailPresenterProtocol.swift in Sources */,
 				1967CF78272C3B9B00D400AE /* MUCharactersRouter.swift in Sources */,
 				1967CF6B272C294B00D400AE /* MUBaseClient.swift in Sources */,
 				1908CD8A272EF6B600C45760 /* MUCharacterDetailUseCase.swift in Sources */,
 				19FE284B272D2FEC00873B58 /* MUCharacterProviderProtocol.swift in Sources */,
+				194351662735AEA6009567E6 /* MUCharacterDetailStorySummaryUseCase.swift in Sources */,
 				1908CDAD272F08D000C45760 /* MUCharacterDetailSerieSummaryMapper.swift in Sources */,
 				1987F920272AF5D600BFA4DB /* MUBasePresenter.swift in Sources */,
 				1967CF69272C293400D400AE /* MUApiClient.swift in Sources */,
