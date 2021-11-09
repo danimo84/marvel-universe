@@ -9,7 +9,7 @@ import Foundation
 
 class MUCharacterDetailComicMapper {
     
-    func transform(_ entity:MUComicList) -> MUCharacterDetailComicUseCase {
+    func transform(_ entity: MUComicList) -> MUCharacterDetailComicUseCase {
         
         var object = MUCharacterDetailComicUseCase()
         object.items = [MUCharacterDetailComicSummaryUseCase]()

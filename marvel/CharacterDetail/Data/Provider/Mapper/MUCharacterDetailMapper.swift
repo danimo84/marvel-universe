@@ -32,6 +32,18 @@ class MUCharacterDetailMapper {
             object.series = newSeries
         }
         
+        object.stories = MUCharacterDetailStoryUseCase()
+        if let story = entity.stories {
+            let newStories = MUCharacterDetailStoryMapper().transform(story)
+            object.stories = newStories
+        }
+        
+        object.events = MUCharacterDetailEventUseCase()
+        if let event = entity.events {
+            let newEvents = MUCharacterDetailEventMapper().transform(event)
+            object.events = newEvents
+        }
+        
         return object
     }
 }
