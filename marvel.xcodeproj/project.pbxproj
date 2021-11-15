@@ -30,8 +30,11 @@
 		1908CDC4272F1AF500C45760 /* MUCharacterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC3272F1AF500C45760 /* MUCharacterDetailPresenter.swift */; };
 		1908CDC7272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC6272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift */; };
 		1908CDC9272F2A0C00C45760 /* MUCharacterDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908CDC8272F2A0C00C45760 /* MUCharacterDetailRouter.swift */; };
+		190E71AD273ED53900C61C51 /* MUApiClientUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E71AC273ED53900C61C51 /* MUApiClientUnitTest.swift */; };
+		190F9C79273EE8F600D59DBE /* MURemoteDataSourceUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F9C78273EE8F600D59DBE /* MURemoteDataSourceUnitTest.swift */; };
 		191184B92731C23700BA0F71 /* MUButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191184B82731C23700BA0F71 /* MUButtonExtension.swift */; };
 		191184BB2731C76800BA0F71 /* MUTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */; };
+		19344ECDD47F720E02086576 /* libPods-marvelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D145C51C292E729D2E05BEE /* libPods-marvelTests.a */; };
 		193E69EF272EA3D700AF5199 /* MUCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */; };
 		193E69F0272EA3D700AF5199 /* MUCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193E69EE272EA3D700AF5199 /* MUCharacterTableViewCell.xib */; };
 		194351642735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351632735ADDF009567E6 /* MUCharacterDetailStoryUseCase.swift */; };
@@ -42,6 +45,10 @@
 		1943516E2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943516D2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift */; };
 		194351702735B168009567E6 /* MUCharacterDetailStoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943516F2735B168009567E6 /* MUCharacterDetailStoryMapper.swift */; };
 		194351722735B17A009567E6 /* MUCharacterDetailEventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194351712735B17A009567E6 /* MUCharacterDetailEventMapper.swift */; };
+		195E85CA274041A6002069A8 /* MUCharacterProviderUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E85C9274041A6002069A8 /* MUCharacterProviderUnitTest.swift */; };
+		195E85CD27405FF4002069A8 /* MUMockRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E85CC27405FF4002069A8 /* MUMockRemoteDataSource.swift */; };
+		195E85CF274060D3002069A8 /* MUCharacterDetailProviderUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E85CE274060D3002069A8 /* MUCharacterDetailProviderUnitTest.swift */; };
+		195E85D1274064B4002069A8 /* MUMockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E85D0274064B4002069A8 /* MUMockApiClient.swift */; };
 		1967CF69272C293400D400AE /* MUApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF68272C293400D400AE /* MUApiClient.swift */; };
 		1967CF6B272C294B00D400AE /* MUBaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6A272C294B00D400AE /* MUBaseClient.swift */; };
 		1967CF6F272C39B700D400AE /* MUCharactersViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */; };
@@ -92,6 +99,10 @@
 		19C90BCA272B130B00F684F5 /* MUAPIErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */; };
 		19E45219272BD30800A37A0A /* MUConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E45218272BD30800A37A0A /* MUConstants.swift */; };
 		19E4521B272BEAB300A37A0A /* MUStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4521A272BEAB300A37A0A /* MUStringExtension.swift */; };
+		19EDBE9A274120850051CBA1 /* MUMockCharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBE99274120850051CBA1 /* MUMockCharacterProvider.swift */; };
+		19EDBE9C274121570051CBA1 /* MUMockCharacterDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBE9B274121570051CBA1 /* MUMockCharacterDetailProvider.swift */; };
+		19EDBE9E274122D90051CBA1 /* MULoadCharactersUseCaseUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBE9D274122D90051CBA1 /* MULoadCharactersUseCaseUnitTest.swift */; };
+		19EDBEA027412B720051CBA1 /* MUCharacterDetailUseCaseUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDBE9F27412B720051CBA1 /* MUCharacterDetailUseCaseUnitTest.swift */; };
 		19EE5A4E273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE5A4C273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift */; };
 		19EE5A4F273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19EE5A4D273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib */; };
 		19FE284B272D2FEC00873B58 /* MUCharacterProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */; };
@@ -102,8 +113,18 @@
 		19FE285A272D3C8600873B58 /* MULoadCharactersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE2859272D3C8600873B58 /* MULoadCharactersUseCase.swift */; };
 		19FE285D272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE285C272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift */; };
 		19FE285F272D442A00873B58 /* MUCharacterUseCaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE285E272D442A00873B58 /* MUCharacterUseCaseMapper.swift */; };
-		6F97581D55A444FDBFA71464 /* Pods_marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */; };
+		26C40FEB10467F639D57D4F2 /* libPods-marvel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77732F22B02D139E3B633FB8 /* libPods-marvel.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190E71A7273ED41A00C61C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A4FC5927285EE1000A44BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A4FC6027285EE1000A44BA;
+			remoteInfo = marvel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1908CD87272EF64B00C45760 /* MUCharacterDetailResultUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailResultUseCase.swift; sourceTree = "<group>"; };
@@ -129,6 +150,9 @@
 		1908CDC3272F1AF500C45760 /* MUCharacterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailPresenter.swift; sourceTree = "<group>"; };
 		1908CDC6272F29FB00C45760 /* MUCharacterDetailRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailRouterProtocol.swift; sourceTree = "<group>"; };
 		1908CDC8272F2A0C00C45760 /* MUCharacterDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailRouter.swift; sourceTree = "<group>"; };
+		190E71A3273ED41A00C61C51 /* marvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E71AC273ED53900C61C51 /* MUApiClientUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUApiClientUnitTest.swift; sourceTree = "<group>"; };
+		190F9C78273EE8F600D59DBE /* MURemoteDataSourceUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MURemoteDataSourceUnitTest.swift; sourceTree = "<group>"; };
 		191184B82731C23700BA0F71 /* MUButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUButtonExtension.swift; sourceTree = "<group>"; };
 		191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTableViewExtension.swift; sourceTree = "<group>"; };
 		193E69ED272EA3D700AF5199 /* MUCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterTableViewCell.swift; sourceTree = "<group>"; };
@@ -141,6 +165,10 @@
 		1943516D2735B0E9009567E6 /* MUCharacterDetailEventSummaryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventSummaryMapper.swift; sourceTree = "<group>"; };
 		1943516F2735B168009567E6 /* MUCharacterDetailStoryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailStoryMapper.swift; sourceTree = "<group>"; };
 		194351712735B17A009567E6 /* MUCharacterDetailEventMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailEventMapper.swift; sourceTree = "<group>"; };
+		195E85C9274041A6002069A8 /* MUCharacterProviderUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProviderUnitTest.swift; sourceTree = "<group>"; };
+		195E85CC27405FF4002069A8 /* MUMockRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUMockRemoteDataSource.swift; sourceTree = "<group>"; };
+		195E85CE274060D3002069A8 /* MUCharacterDetailProviderUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailProviderUnitTest.swift; sourceTree = "<group>"; };
+		195E85D0274064B4002069A8 /* MUMockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUMockApiClient.swift; sourceTree = "<group>"; };
 		1967CF68272C293400D400AE /* MUApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUApiClient.swift; sourceTree = "<group>"; };
 		1967CF6A272C294B00D400AE /* MUBaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUBaseClient.swift; sourceTree = "<group>"; };
 		1967CF6E272C39B700D400AE /* MUCharactersViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharactersViewControllerProtocol.swift; sourceTree = "<group>"; };
@@ -193,6 +221,10 @@
 		19C90BC9272B130A00F684F5 /* MUAPIErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAPIErrorCode.swift; sourceTree = "<group>"; };
 		19E45218272BD30800A37A0A /* MUConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUConstants.swift; sourceTree = "<group>"; };
 		19E4521A272BEAB300A37A0A /* MUStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStringExtension.swift; sourceTree = "<group>"; };
+		19EDBE99274120850051CBA1 /* MUMockCharacterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUMockCharacterProvider.swift; sourceTree = "<group>"; };
+		19EDBE9B274121570051CBA1 /* MUMockCharacterDetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUMockCharacterDetailProvider.swift; sourceTree = "<group>"; };
+		19EDBE9D274122D90051CBA1 /* MULoadCharactersUseCaseUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharactersUseCaseUnitTest.swift; sourceTree = "<group>"; };
+		19EDBE9F27412B720051CBA1 /* MUCharacterDetailUseCaseUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterDetailUseCaseUnitTest.swift; sourceTree = "<group>"; };
 		19EE5A4C273AFAEC00D5BDA5 /* MUItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		19EE5A4D273AFAEC00D5BDA5 /* MUItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MUItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		19FE284A272D2FEC00873B58 /* MUCharacterProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterProviderProtocol.swift; sourceTree = "<group>"; };
@@ -203,17 +235,28 @@
 		19FE2859272D3C8600873B58 /* MULoadCharactersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MULoadCharactersUseCase.swift; sourceTree = "<group>"; };
 		19FE285C272D440E00873B58 /* MUCharacterResultUseCaseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterResultUseCaseMapper.swift; sourceTree = "<group>"; };
 		19FE285E272D442A00873B58 /* MUCharacterUseCaseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCharacterUseCaseMapper.swift; sourceTree = "<group>"; };
+		1E10DC8079A93D36CD277DD7 /* Pods-marvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelTests.release.xcconfig"; path = "Target Support Files/Pods-marvelTests/Pods-marvelTests.release.xcconfig"; sourceTree = "<group>"; };
 		246A9CD2746E81A78DFD75F0 /* Pods-marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel.release.xcconfig"; path = "Target Support Files/Pods-marvel/Pods-marvel.release.xcconfig"; sourceTree = "<group>"; };
+		6A058341190270639A244786 /* Pods-marvelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelTests.debug.xcconfig"; path = "Target Support Files/Pods-marvelTests/Pods-marvelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77732F22B02D139E3B633FB8 /* libPods-marvel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-marvel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD40D74A7DAE4CC75ABE20E /* Pods-marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel.debug.xcconfig"; path = "Target Support Files/Pods-marvel/Pods-marvel.debug.xcconfig"; sourceTree = "<group>"; };
-		E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D145C51C292E729D2E05BEE /* libPods-marvelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-marvelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		190E71A0273ED41A00C61C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19344ECDD47F720E02086576 /* libPods-marvelTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19A4FC5E27285EE1000A44BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F97581D55A444FDBFA71464 /* Pods_marvel.framework in Frameworks */,
+				26C40FEB10467F639D57D4F2 /* libPods-marvel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +383,44 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		190E71A4273ED41A00C61C51 /* marvelTests */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBEA52741317C0051CBA1 /* Presentation */,
+				19EDBEA127412EF00051CBA1 /* Domain */,
+				190F9C77273EE89600D59DBE /* Data */,
+			);
+			path = marvelTests;
+			sourceTree = "<group>";
+		};
+		190F9C76273EE88D00D59DBE /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				190E71AC273ED53900C61C51 /* MUApiClientUnitTest.swift */,
+				195E85D0274064B4002069A8 /* MUMockApiClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		190F9C77273EE89600D59DBE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				195E85CB274041AE002069A8 /* Provider */,
+				190F9C7A273EE8FE00D59DBE /* DataSource */,
+				190F9C76273EE88D00D59DBE /* Client */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		190F9C7A273EE8FE00D59DBE /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				190F9C78273EE8F600D59DBE /* MURemoteDataSourceUnitTest.swift */,
+				195E85CC27405FF4002069A8 /* MUMockRemoteDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		191701822732C7F300474D00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +445,17 @@
 				191184BA2731C76800BA0F71 /* MUTableViewExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		195E85CB274041AE002069A8 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				195E85C9274041A6002069A8 /* MUCharacterProviderUnitTest.swift */,
+				195E85CE274060D3002069A8 /* MUCharacterDetailProviderUnitTest.swift */,
+				19EDBE99274120850051CBA1 /* MUMockCharacterProvider.swift */,
+				19EDBE9B274121570051CBA1 /* MUMockCharacterDetailProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		1967CF6C272C38F800D400AE /* Presentation */ = {
@@ -569,6 +661,7 @@
 			isa = PBXGroup;
 			children = (
 				19A4FC6327285EE1000A44BA /* marvel */,
+				190E71A4273ED41A00C61C51 /* marvelTests */,
 				19A4FC6227285EE1000A44BA /* Products */,
 				90FF23432162C78DEDB46FAD /* Pods */,
 				B3245806631E95EE4AD3B714 /* Frameworks */,
@@ -579,6 +672,7 @@
 			isa = PBXGroup;
 			children = (
 				19A4FC6127285EE1000A44BA /* marvel.app */,
+				190E71A3273ED41A00C61C51 /* marvelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -613,6 +707,38 @@
 				19E45218272BD30800A37A0A /* MUConstants.swift */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		19EDBEA127412EF00051CBA1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBEA227412EFE0051CBA1 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		19EDBEA227412EFE0051CBA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBE9D274122D90051CBA1 /* MULoadCharactersUseCaseUnitTest.swift */,
+				19EDBE9F27412B720051CBA1 /* MUCharacterDetailUseCaseUnitTest.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		19EDBEA52741317C0051CBA1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				19EDBEA6274131880051CBA1 /* Router */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		19EDBEA6274131880051CBA1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		19FE284E272D300200873B58 /* Provider */ = {
@@ -666,6 +792,8 @@
 			children = (
 				8CD40D74A7DAE4CC75ABE20E /* Pods-marvel.debug.xcconfig */,
 				246A9CD2746E81A78DFD75F0 /* Pods-marvel.release.xcconfig */,
+				6A058341190270639A244786 /* Pods-marvelTests.debug.xcconfig */,
+				1E10DC8079A93D36CD277DD7 /* Pods-marvelTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -673,7 +801,8 @@
 		B3245806631E95EE4AD3B714 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E43918DFF4FF894F3ADDDEA5 /* Pods_marvel.framework */,
+				77732F22B02D139E3B633FB8 /* libPods-marvel.a */,
+				9D145C51C292E729D2E05BEE /* libPods-marvelTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -681,6 +810,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		190E71A2273ED41A00C61C51 /* marvelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190E71AB273ED41A00C61C51 /* Build configuration list for PBXNativeTarget "marvelTests" */;
+			buildPhases = (
+				CCA80524579395C5483CAA6E /* [CP] Check Pods Manifest.lock */,
+				190E719F273ED41A00C61C51 /* Sources */,
+				190E71A0273ED41A00C61C51 /* Frameworks */,
+				190E71A1273ED41A00C61C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190E71A8273ED41A00C61C51 /* PBXTargetDependency */,
+			);
+			name = marvelTests;
+			productName = marvelTests;
+			productReference = 190E71A3273ED41A00C61C51 /* marvelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		19A4FC6027285EE1000A44BA /* marvel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19A4FC7527285EE3000A44BA /* Build configuration list for PBXNativeTarget "marvel" */;
@@ -689,7 +837,6 @@
 				19A4FC5D27285EE1000A44BA /* Sources */,
 				19A4FC5E27285EE1000A44BA /* Frameworks */,
 				19A4FC5F27285EE1000A44BA /* Resources */,
-				ECC7A50E0D0C1E303ECDA73F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -710,6 +857,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					190E71A2273ED41A00C61C51 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 19A4FC6027285EE1000A44BA;
+					};
 					19A4FC6027285EE1000A44BA = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -729,11 +880,19 @@
 			projectRoot = "";
 			targets = (
 				19A4FC6027285EE1000A44BA /* marvel */,
+				190E71A2273ED41A00C61C51 /* marvelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		190E71A1273ED41A00C61C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19A4FC5F27285EE1000A44BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -772,26 +931,48 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ECC7A50E0D0C1E303ECDA73F /* [CP] Embed Pods Frameworks */ = {
+		CCA80524579395C5483CAA6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-marvelTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-marvel/Pods-marvel-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		190E719F273ED41A00C61C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EDBE9E274122D90051CBA1 /* MULoadCharactersUseCaseUnitTest.swift in Sources */,
+				190F9C79273EE8F600D59DBE /* MURemoteDataSourceUnitTest.swift in Sources */,
+				19EDBEA027412B720051CBA1 /* MUCharacterDetailUseCaseUnitTest.swift in Sources */,
+				195E85CA274041A6002069A8 /* MUCharacterProviderUnitTest.swift in Sources */,
+				195E85CF274060D3002069A8 /* MUCharacterDetailProviderUnitTest.swift in Sources */,
+				195E85CD27405FF4002069A8 /* MUMockRemoteDataSource.swift in Sources */,
+				190E71AD273ED53900C61C51 /* MUApiClientUnitTest.swift in Sources */,
+				19EDBE9C274121570051CBA1 /* MUMockCharacterDetailProvider.swift in Sources */,
+				195E85D1274064B4002069A8 /* MUMockApiClient.swift in Sources */,
+				19EDBE9A274120850051CBA1 /* MUMockCharacterProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19A4FC5D27285EE1000A44BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -890,6 +1071,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		190E71A8273ED41A00C61C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A4FC6027285EE1000A44BA /* marvel */;
+			targetProxy = 190E71A7273ED41A00C61C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		19A4FC6F27285EE2000A44BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -902,6 +1091,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		190E71A9273ED41A00C61C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A058341190270639A244786 /* Pods-marvelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moraleda.dani.marvelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvel.app/marvel";
+			};
+			name = Debug;
+		};
+		190E71AA273ED41A00C61C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E10DC8079A93D36CD277DD7 /* Pods-marvelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moraleda.dani.marvelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvel.app/marvel";
+			};
+			name = Release;
+		};
 		19A4FC7327285EE3000A44BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1081,6 +1322,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		190E71AB273ED41A00C61C51 /* Build configuration list for PBXNativeTarget "marvelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190E71A9273ED41A00C61C51 /* Debug */,
+				190E71AA273ED41A00C61C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		19A4FC5C27285EE1000A44BA /* Build configuration list for PBXProject "marvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
