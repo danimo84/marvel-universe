@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MUCharacterDataWrapper: Codable {
+class MUCharacterDataWrapper: Codable {
     
     // MARK: -Public contants
     
@@ -17,4 +17,13 @@ struct MUCharacterDataWrapper: Codable {
     let attributionHTML: String?
     let etag: String?
     let data: MUCharacterDataContainer?
+    
+    init() {
+        code = nil
+        status = nil
+        copyright = nil
+        attributionHTML = nil
+        etag = nil
+        data = nil
+    }
 }
